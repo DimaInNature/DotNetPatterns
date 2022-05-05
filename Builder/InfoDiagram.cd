@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="WordDocument &amp; HTMLDocument construct Document.">
+    <Position X="7.5" Y="3.75" Height="0.698" Width="1.596" />
+  </Comment>
+  <Comment CommentText="The DocumentDirector takes those individual processes from the DocumentBuilder and defines the sequence to build the Document.">
+    <Position X="1.135" Y="1.219" Height="1.011" Width="2.106" />
+  </Comment>
+  <Comment CommentText="The Builder design pattern builds a complex object using many simple objects and using a step-by-step approach. The process of constructing a complex object must be universal so that the same construction process can be used to create different representations of the same complex object.">
+    <Position X="8.199" Y="1.131" Height="1.011" Width="3.939" />
+  </Comment>
+  <Class Name="Builder.Builders.DocumentBuilder" Collapsed="true">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAABAAAAABAAAAAIAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builders\DocumentBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.ConcreteBuilders.HTMLDocument" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteBuilders\HTMLDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.ConcreteBuilders.WordDocument" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteBuilders\WordDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Directors.DocumentDirector" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Directors\DocumentDirector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Products.Document" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Document.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
