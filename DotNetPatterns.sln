@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentBuilder", "FluentBuil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder", "FluentBuilder\FluentBuilder.csproj", "{D203DEB7-DB59-4451-8608-8ED220652A84}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{D32D3BF0-1C04-405D-9C41-60ACC6A9C3A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{3377DDA2-6097-40D9-8E83-48AD4E7EC8E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{D203DEB7-DB59-4451-8608-8ED220652A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D203DEB7-DB59-4451-8608-8ED220652A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D203DEB7-DB59-4451-8608-8ED220652A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3377DDA2-6097-40D9-8E83-48AD4E7EC8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3377DDA2-6097-40D9-8E83-48AD4E7EC8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3377DDA2-6097-40D9-8E83-48AD4E7EC8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3377DDA2-6097-40D9-8E83-48AD4E7EC8E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{394AB1BD-FAB4-476B-8A39-8F184DF93F36} = {FFE77C52-5CB6-431B-A95D-D840C2CBBA31}
 		{D203DEB7-DB59-4451-8608-8ED220652A84} = {40BFA265-4A1C-48B2-ACA9-D5B1C0AF890A}
+		{3377DDA2-6097-40D9-8E83-48AD4E7EC8E7} = {D32D3BF0-1C04-405D-9C41-60ACC6A9C3A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8C5E6E8-68DA-474C-BD97-9BCD21FF0346}
